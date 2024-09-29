@@ -10,9 +10,9 @@ public class Resolution {
 		System.setProperty("webdriver.chrome.driver", "./softwares/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		Thread.sleep(2000);
-		driver.navigate().to("file:///C:/Users/admin/OneDrive/Desktop/abhi/Selenium/xpath.html");
+		driver.navigate().to("file:///C:/Users/admin/OneDrive/Desktop/sayan/Selenium/xpath.html");
 		Thread.sleep(2000);
-		driver.navigate().to("file:///C:/Users/admin/OneDrive/Desktop/abhi/Selenium/project.html");
+		driver.navigate().to("file:///C:/Users/admin/OneDrive/Desktop/sayan/Selenium/project.html");
 		Thread.sleep(2000);
 		driver.navigate().back();
 		Thread.sleep(2000);
